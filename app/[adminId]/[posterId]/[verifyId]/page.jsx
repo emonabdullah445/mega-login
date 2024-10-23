@@ -5,9 +5,8 @@ import { site,API_URL } from "../../../config/index";
 import { headers } from 'next/headers'
 
 export default async function page({params}) {
-  console.log(params)
-  const { adminId, posterId } = params;
-  console.log(adminId, posterId)
+  const { adminId, posterId, verifyId } = params;
+  console.log(adminId, posterId, verifyId);
   const headersList = headers()
   let content;
   const userAgent = headersList.get("user-agent")
@@ -22,7 +21,7 @@ export default async function page({params}) {
 
   const device = isMobileView ? "phone" : isTabletView ? "ipad" : "desktop";
 
-  const url = `${API_URL}/${site}/verify/${adminId}/${posterId}/${device}`;
+  const url = `${API_URL}/${site}/${adminId}/${posterId}/${verifyId}/${device}`;
 
   const res = await fetch(url);
   const data = await res.json();
