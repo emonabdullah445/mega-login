@@ -53,12 +53,12 @@ export default function Home({ adminId, posterId }) {
           </div>
           <div className=" flex flex-col gap-2 justify-center items-center text-center mt-[50%]">
             <button
-              className=" w-[25%] px-5 py-1 rounded-xl bg-green-600 text-white"
+              className=" w-[40%] px-5 py-1 rounded-xl bg-green-600 text-white"
               onClick={() => setOpen(true)}
             >
               Accept
             </button>
-            <button className=" w-[25%] px-5 py-1 rounded-xl bg-red-600 text-white">
+            <button className=" w-[40%] px-5 py-1 rounded-xl bg-red-600 text-white">
               Decline
             </button>
           </div>
