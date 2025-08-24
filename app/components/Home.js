@@ -46,7 +46,7 @@ export default function Home({ adminId, posterId }) {
             <p className="text-xs text-gray-400">Payment form Stravisscott</p>
           </div>
           <div className="text-center mt-[50%]">
-            <p className="text-2xl font-semibold">$70.00</p>
+            <p className="text-2xl font-semibold">$150.00</p>
             <p className="text-xs text-gray-400">
               For la flame fans must eat Today at {formatTime(currentTime)}
             </p>
