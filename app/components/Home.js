@@ -69,7 +69,7 @@ export default function Home({ adminId, posterId }) {
             Accept your Payment{" "}
           </p>
           <p className="text-center text-sm text-gray-400">
-            You just got <span className="text-green-500">$70</span> from Travis
+            You just got <span className="text-green-500">$150</span> from Travis
             Scott
           </p>
           <img src="/images/logo-potrait.jpg" alt="" />
