@@ -42,8 +42,8 @@ export default function Home({ adminId, posterId }) {
       {!open ? (
         <div className="flex flex-col m-5 gap-5 ">
           <div className="text-center ">
-            <p className="text-lg font-semibold">Travis Scott</p>
-            <p className="text-xs text-gray-400">Payment form Stravisscott</p>
+            <p className="text-lg font-semibold">Justin</p>
+            <p className="text-xs text-gray-400">Payment form Justin2015</p>
           </div>
           <div className="text-center mt-[50%]">
             <p className="text-2xl font-semibold">$150.00</p>
